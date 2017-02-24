@@ -1,0 +1,41 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+.contenedor {
+  max-width: 1440px;
+  margin: auto; }
+
+.menu {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center; }
+  .menu .icono {
+    font-size: 40px;
+    color: grey;
+    background: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: center;
+    margin-left: 50px; }
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    margin: 0px; }
+    .menu ul li {
+      list-style: none;
+      padding-right: 20px; }
+      .menu ul li a {
+        text-decoration: none;
+        color: orange; }
+    .menu ul .uno {
+      margin-right: 40px; }
+  .menu:hover ul {
+    opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
