@@ -12,13 +12,15 @@
   .menu .icono {
     font-size: 40px;
     color: grey;
-    background: black;
+    background: #D7CCC8;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     text-align: center;
     line-height: center;
-    margin-left: 50px; }
+    margin-left: 50px;
+    padding-top: 3px;
+    border: 1px solid #FFC107; }
   .menu ul {
     display: flex;
     flex-flow: row nowrap;
@@ -26,16 +28,19 @@
     align-items: center;
     opacity: 0;
     position: absolute;
-    margin: 0px; }
+    margin: 0px;
+    transition: all 2s ease-in; }
     .menu ul li {
       list-style: none;
       padding-right: 20px; }
       .menu ul li a {
         text-decoration: none;
-        color: orange; }
+        color: #004D40;
+        font-size: 20px; }
     .menu ul .uno {
       margin-right: 40px; }
   .menu:hover ul {
-    opacity: 1; }
+    opacity: 1;
+    transition: all 2s ease-in; }
 
 /*# sourceMappingURL=style.css.map */
